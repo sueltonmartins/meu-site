@@ -1,0 +1,109 @@
+body {
+    font-family: poppins;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    background-image: url(../img/2062629-abstract-background-with-technology-circuit-board-texture-electronic-motherboard-illustration-communication-and-engineering-concept-vector-illustration-vetor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+  
+}
+
+a {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+a:hover {
+color: rgb(0, 255, 255);
+transition: 0.3ms all;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    height: 50px;
+    width: 50%;
+    background-color: aqua;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    color: rgb(255, 255, 255);
+}
+
+span {
+    color: rgb(0, 255, 255);
+}
+
+p {
+line-height: 20px;
+max-width: 500px;
+font-family: poppinslight;
+color: aliceblue;
+}  
+
+    img {
+        width: 550px;
+        border-radius: 100%;
+    }
+
+.title {
+     & img{
+        border-radius: 50%;
+        width: 120px;
+    }
+    
+  h1{
+        font-weight: 200px;
+    }
+
+ 
+
+   
+    
+}
